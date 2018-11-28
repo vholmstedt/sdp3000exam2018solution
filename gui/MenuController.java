@@ -17,10 +17,12 @@ More information: https://sites.google.com/site/mitsoptew
 package gui;
 
 import javax.swing.JCheckBoxMenuItem;
+import javax.swing.JMenuItem;
 import javax.swing.JMenuBar;
 
 import controller.Controller;
 import easylib.gui.MMenu;
+
 
 public class MenuController extends JMenuBar {
 
