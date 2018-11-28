@@ -31,7 +31,7 @@ public class MenuController extends JMenuBar {
 		file.add(Controller.storesvg);
 		file.add(Controller.aexit);
 		tools.add(new JCheckBoxMenuItem(Controller.controlshadow));
-		tools.add(new JCheckBoxMenuItem(Controller.newdiagram));
+		tools.add(new JMenuItem(Controller.newdiagram));
 		help.add(Controller.aabout);
 		add(file);
 		add(tools);		
